@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+
+}
+
+.dropdown {
+    width: fit-content;
+}
+
+.dropdown .dropdown-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+}
+
+.dropdown .dropdown-list {
+    visibility: hidden;
+}
+
+.dropdown .dropdown-list.visible {
+    visibility: visible;
+}
+
+.dropdown .item {
+    height: 40px;
+    width: 125px;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown .item:hover {
+    background-color: mediumpurple;
+}
+
+.dropdown p {
+    margin: 0;
+}
