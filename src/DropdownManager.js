@@ -13,12 +13,3 @@ export class DropdownManager {
         dropdownList.classList.remove("visible")
     }
 }
-const dropdownManager = new DropdownManager();
-
-
-
-const dropdownTitle = document.querySelector(".dropdown .title")
-dropdownTitle.addEventListener("mouseenter", dropdownManager.show)
-
-const dropdown = document.querySelector(".dropdown")
-dropdown.addEventListener("mouseleave", dropdownManager.hide)
